@@ -1,2 +1,2 @@
 # kalkulator
-aplikasi kalkulator pauji
+saya menyerah pak
