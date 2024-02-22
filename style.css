@@ -1,0 +1,84 @@
+p{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 0;
+    text-align: center;
+ }
+
+ body {
+    width: 300px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(117, 22, 201);
+    max-width: 300px;
+ }
+
+ .calculator {
+    width: 300px;
+    box-shadow: 5px 5px 5px ;
+    max-width: 300px;
+    height: 450px;
+    padding: 10px 10px;
+    position: relative;
+    border-radius: 10%;
+    background-color: rgb(94, 94, 99);
+    justify-content: center;
+ }
+button {
+    padding: 30px;
+    height: 50px;
+    margin-top: auto;
+    position: relative;
+    justify-content: center;
+    width: 40px;
+    border-radius: 5px;
+    border-style: inset;
+    font-size: small;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
+.Number {
+    background-color: rgb(193, 197, 196);
+    justify-content: center;
+
+}
+
+.operator {
+    background-color: coral;
+}
+
+.private {
+    background-color: chartreuse;
+}
+.samadengan {
+    background-color: rgb(255, 238, 0);
+
+}
+.UserInput {
+    margin-top: 10px;
+    background-color: rgb(182, 182, 182);
+    text-align: end;
+    justify-content: center;
+    margin-bottom: 10px;
+    height: 90px;
+    border-radius: 5%;
+    border-style: solid;
+    
+ }
+.btnGroup2 {
+    padding: 30px;
+    height: 50px;
+    margin-top: auto;
+    position: relative;
+    justify-content: center;
+    width: 40px;
+    border-radius: 5px;
+    border-style: double;
+    font-size: small;
+    text-align: center;
+    background-color: rgb(226, 220, 220);
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: backwards;
+}
